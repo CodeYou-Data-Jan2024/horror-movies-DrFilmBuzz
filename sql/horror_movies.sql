@@ -1,6 +1,7 @@
 
 
 SELECT id, name, imdb_rating
-FROM movies;
+FROM movies
 WHERE genre = 'horror' and year <= 1985
-ORDER BY imdb_rating DESC; 
+ORDER BY imdb_rating DESC 
+LIMIT 3;
