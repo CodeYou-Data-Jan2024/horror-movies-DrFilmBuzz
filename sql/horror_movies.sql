@@ -1,1 +1,3 @@
--- Add your SQL here
+
+SELECT id, name, imdb_rating
+FROM movies;
